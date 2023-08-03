@@ -1,0 +1,17 @@
+body {
+    background-color: aqua;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    color: blue;
+}
+
+h2 {
+    color: red;
+}
+
+p {
+    color: brown;
+    text-align: justify;
+}

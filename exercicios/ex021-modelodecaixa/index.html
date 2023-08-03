@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body {
+            background-color: lightslategray;
+        }
+
+        header {
+            width: 200;
+            background-color: white;
+            box-shadow: 1px 1px 1px black;
+        }
+
+        header > h1{ 
+            text-align: center;
+        }
+
+        nav > a{
+            text-decoration: none;
+        }
+
+        nav > a:hover{
+            text-decoration: underline;
+        }
+
+        main{
+            background-color: salmon;
+        }
+
+        footer{
+            background-color: black;
+            color: white;
+            text-align: center;
+            font-size: 40px;
+        }
+        
+        .assuntos{
+            background-color: bisque;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Cabeçalho do Site</h1>
+        <nav>
+            <h2>Menu</h2>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+        </nav>
+    </header>
+    <main>
+        <h2>Conteudo do Site</h2>
+        <section class="assuntos">
+            <p>Jogos da Semana</p>
+        </section>
+        <section id="noticias">
+            <article>
+                <h3>Jogo da furia hoje e Estreia do fallen</h3>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Perferendis dolor, suscipit maxime autem cum optio eius tempora necessitatibus eveniet nobis, numquam, molestiae iste facere repellendus sed. Quia perferendis voluptas explicabo.</p>
+                <aside>Artigo escrito por Lauro Fernandes</aside>
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>Deselvolvido por</p>
+    </footer>
+</body>
+</html>
