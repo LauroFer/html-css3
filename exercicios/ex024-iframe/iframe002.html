@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Testando iframe</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: beige;
+            color: black;
+        }
+
+        iframe {
+            width: 95vh;
+            height: 400px;
+            border: 2px solid black;
+        }
+    </style>
+</head>
+<body>
+    <h1>Teste de iframes</h1>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vel harum similique perferendis sint natus consequuntur eos ducimus. Ducimus nesciunt ex eaque suscipit cum, sed eveniet maxime, minus, explicabo totam velit.</p>
+
+    <ul>
+        <li><a href="pags-extras/pag01.html" target="frame">Primeira pagina de Teste</a></li> <!-- ADICIONADO O TARGET COM O NOME COLOCADO NO IFRAME-->
+        <li><a href="pags-extras/pag02.html" target="frame">Segunda pagina de teste</a></li><!-- ADICIONADO O TARGET COM O NOME COLOCADO NO IFRAME-->
+        <li><a href="https://www.cursoemvideo.com/" target="frame">Pagina do CursoemVideo</a></li><!-- ADICIONADO O TARGET COM O NOME COLOCADO NO IFRAME-->
+    </ul>
+
+    <iframe name="frame" srcdoc="<h1>Adicionado o srcdoc para não fica vazio o iframe</h1>" frameborder="0"></iframe> <!--ADICIONADO O NAME PARA FUNCIONAR O TARGET-->
+    
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Pariatur, blanditiis. Deleniti repellendus accusantium iure quasi ipsum, repellat, mollitia, similique dolorem alias officia quo officiis! Provident iure officia quos aspernatur molestias. Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic qui, unde consectetur quaerat maiores earum iste dolorum ab quae aliquid in a velit debitis pariatur reprehenderit adipisci officia cum id.</p>
+</body>
+</html>
